@@ -6,7 +6,7 @@ export default function Navbar(props) {
         <>
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
           <div className="container-fluid">
-            <a className="navbar-brand" href="/#">{props.title}</a>
+            <a className="navbar-brand" href="#">{props.title}</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -15,7 +15,7 @@ export default function Navbar(props) {
               
             
                 <li className="nav-item mx-5 ">
-                  <a className="nav-link disabled mx-5 " href="/#" tabIndex="-1" aria-disabled="true">
+                  <a className="nav-link disabled mx-5 " href="#" tabIndex="-1" aria-disabled="true">
                     Welcome to TextUtils
                     </a>
                 </li>
