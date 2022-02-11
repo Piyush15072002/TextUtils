@@ -37,6 +37,30 @@
   }
 }
 
-.blank{
-  color:red;
+#floatingTextarea2{
+  height:250px;
 }
+
+.copy{
+  color:white;
+  font-size:2em;
+}
+.contact{
+  color:rgb(185, 185, 185);
+  font-size:1em;
+}
+.right{
+  color:rgb(212, 211, 211);
+  font-size:0.5em;
+}
+.imgS{
+  border-radius: 50%;
+}
+
+.footerS{
+  margin-top:100px;
+}
+.main{
+  height:70vh
+}
+
